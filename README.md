@@ -65,10 +65,10 @@ If you'd like to add users or thoughts:
 </Code>
 
 ## Technology Used:
-  - Node.js 
-  - Express.js 
-  - MongoDB 
-  - Nodemon
+  	- Node.js 
+ 	- Express.js 
+ 	- MongoDB 
+  	- Nodemon
 
 ## Contact Information:
 
