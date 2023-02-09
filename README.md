@@ -19,7 +19,7 @@ Keep track of users with associated thoughts and reactions. Able to delete users
 ## Installation:
 
 1. Open terminal.
-2. In upper corner of GitHub repo, click <Code> dropdown menu. 
+2. In upper corner of GitHub repo, click < Code > dropdown menu. 
 3. Copy the SSH link.
 4. In terminal, type "git clone" and paste the SSH link afterwards. 
 5. Hit enter. 
@@ -57,10 +57,12 @@ If you'd like to add users or thoughts:
 3. Below the URL box, ensure the `BODY` is set to `JSON`
 4. In the JSON body give the parameters of "name" and "email"
       example: 
+      <Code>
         {
             "username": "test-user",
 	          "email": "test-user@email.com"
         }
+</Code>
 
 ## Technology Used:
   - Node.js 
