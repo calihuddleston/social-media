@@ -21,7 +21,7 @@ Keep track of users with associated thoughts and reactions. Able to delete users
 1. Open terminal.
 2. In upper corner of GitHub repo, click < Code > dropdown menu. 
 3. Copy the SSH link.
-4. In terminal, type "git clone" and paste the SSH link afterwards. 
+4. In terminal, type `git clone` and paste the SSH link afterwards. 
 5. Hit enter. 
 
 ** API repo should successfully be on your desktop or downloads as a directory folder.
