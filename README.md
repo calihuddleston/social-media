@@ -33,7 +33,7 @@ NPM Packages:
 
 Start Application:
 
-1. You'll see the `API server running on http://localhost:3001` in the terminal console. You can view the app on http://localhost:3001/
+1. You'll see the `API server running on http://localhost:3001` in the terminal console. You can view the app on http://localhost:3001/ in Insomnia
 
 ## Screenshots:
 ![social-media](https://user-images.githubusercontent.com/102004484/217681731-5275f3d5-113f-4f60-95b3-5d7a65291657.png)
