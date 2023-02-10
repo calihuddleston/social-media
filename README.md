@@ -6,8 +6,7 @@
 
 - [Description](#description)
 - [Installation](#install)
-- [Usage](#usage)
-- [Guidelines](#guidelines)
+- [Screenshots](#screenshots)
 - [Test-Instructions](#test)
 - [Technology Used](#techused)
 - [Contact-Information](#email)
@@ -18,38 +17,42 @@ Keep track of users with associated thoughts and reactions. Able to delete users
 
 ## Installation:
 
+Clone Repository:
+
 1. Open terminal.
-2. In upper corner of GitHub repo, click < Code > dropdown menu. 
-3. Copy the SSH link.
-4. In terminal, type `git clone` and paste the SSH link afterwards. 
-5. Hit enter. 
+2. In terminal, type or copy and paste: git clone `git@github.com:calihuddleston/social-media.git`
+3. Hit enter.
 
-** API repo should successfully be on your desktop or downloads as a directory folder.
+NPM Packages:
 
-## Usage:
+- All NPM packages required for this API (Express, Nodemon, MongoDB) are already listed as dependencies in the package.json file.
+- Ensure that Node.js is installed on your machine (you can check this by running `node -v` in the terminal). The `social-media` API will be invoked by entering `npm start` in the command line. Node.js Download: https://nodejs.org/en/download/
+
+1. In the terminal, `cd` into the `social-media` directory.
+2. Run `npm i` or `npm install` to install dependency node-modules.
+
+Start Application:
+
+1. You'll see the `API server running on http://localhost:3001` in the terminal console. You can view the app on http://localhost:3001/
+
+## Screenshots:
 ![social-media](https://user-images.githubusercontent.com/102004484/217681731-5275f3d5-113f-4f60-95b3-5d7a65291657.png)
 
 https://watch.screencastify.com/v/dIT9gabYOaqdaD774fWa
-
-## Guidelines:
-
-NA
 
 ## Test Instructions:
 
 1. Ensure Insomnia is installed. 
 2. If above application is not installed - follow installation instructions and install. 
     Insomnia: https://insomnia.rest/
-3. Once installed - open terminal and cd into `social-media` directory.
-4. Run `npm start` to begin local host server.
-5. Open Insomnia.
-6. In the upper right corner of Insomnia - click `+ Create` dropdown menu.
-7. Click `Request Collection.`
-8. Name request collection and click `Create.`
-9. Click `New HTTP Request.`
-10. In the URL box, ensure HTTP request is set to desired request form (GET, PUT, DELETE, etc).
-11. In the URL box, type the URL `localhost:3001/api/users`
-12. Have fun with the API and play around!
+3. Open Insomnia.
+4. In the upper right corner of Insomnia - click `+ Create` dropdown menu.
+5. Click `Request Collection.`
+6. Name request collection and click `Create.`
+7. Click `New HTTP Request.`
+8. In the URL box, ensure HTTP request is set to desired request form (GET, PUT, DELETE, etc).
+9. In the URL box, type the URL `localhost:3001/api/users`
+10. Have fun with the API and play around!
 
 If you'd like to add users or thoughts: 
 1. Ensure the HTTP request is set to `POST`
